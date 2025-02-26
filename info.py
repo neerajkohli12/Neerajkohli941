@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/f983d857f3c
 CODE = (environ.get('CODE', 'https://telegra.ph/file/cffad1df6c3a40067796c.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'zipshort.net'))
-STREAM_API = (environ.get('STREAM_API', '817a132726abc1b758ce4bd6d3f983ae2e2d9aa9'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'modijiurl.com'))
+STREAM_API = (environ.get('STREAM_API', 'c15c5a31772e33541677a3b4009bc8311f859289'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Howtodownll/19'))
 
 # Admins, Channels & Users
@@ -59,8 +59,8 @@ VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( F
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/Howtodownll/19') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'mdiskshortner.link')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'cf2e491da2422e76deb6ee777ec31a3dc96f3d61')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'c15c5a31772e33541677a3b4009bc8311f859289')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
